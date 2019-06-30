@@ -1,0 +1,20 @@
+# Example service configuration:
+# -------------------------------
+# mode: "service"
+# name: "jetson1" #  instance name
+# type: "_ssh" # Instance / Service type
+# protocol: "_tcp" #  protocol
+# domain: "local." # service domain
+# port: 22 # service port
+# metadata: # service metadata
+#   - "version=0.1.0"
+#   - "store other metadata here" 
+
+# Example discovery configuration:
+# -------------------------------
+# mode: "discovery"
+# type: "_ssh" # Instance / Service type
+# protocol: "_tcp" #  protocol
+# domain: "local." # service domain
+
+mode: "doesnt"
